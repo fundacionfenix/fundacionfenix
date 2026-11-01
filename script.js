@@ -24,6 +24,26 @@
     });
   }
 
+  var lightbox = document.querySelector(".lightbox");
+
+  if (lightbox && typeof lightbox.showModal === "function") {
+    var lightboxImg = lightbox.querySelector("img");
+
+    document.querySelectorAll(".gallery-item").forEach(function (item) {
+      item.addEventListener("click", function () {
+        lightboxImg.src = item.dataset.full;
+        lightboxImg.alt = item.dataset.alt || "";
+        lightbox.showModal();
+      });
+    });
+
+    lightbox.addEventListener("click", function (event) {
+      if (event.target === lightbox || event.target.closest(".lightbox-close")) {
+        lightbox.close();
+      }
+    });
+  }
+
   var items = document.querySelectorAll(".card, .section-head, .prose, .closing");
   items.forEach(function (el) {
     el.classList.add("reveal");
