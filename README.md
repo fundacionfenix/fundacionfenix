@@ -8,7 +8,7 @@ Sitio estático (HTML, CSS y un poco de JavaScript), sin dependencias de compila
 
 | Archivo | Contenido |
 | --- | --- |
-| `index.html` | Página única: inicio, nosotros, valores, modelo, programas, apoyo y contacto |
+| `index.html` | Página única: inicio, modelo, terapias, nosotros, valores, programas, apoyo y contacto |
 | `styles.css` | Estilos y paleta de marca (rojo, naranja y amarillo del logo) |
 | `script.js` | Menú móvil y animaciones de entrada |
 | `assets/` | Logo, favicons e imagen para redes sociales |
