@@ -8,7 +8,7 @@ Sitio estático (HTML, CSS y un poco de JavaScript), sin dependencias de compila
 
 | Archivo | Contenido |
 | --- | --- |
-| `index.html` | Página única: inicio, nosotros, valores, modelo, programas, equipo, apoyo y contacto |
+| `index.html` | Página única: inicio, nosotros, valores, modelo, programas, apoyo y contacto |
 | `styles.css` | Estilos y paleta de marca (rojo, naranja y amarillo del logo) |
 | `script.js` | Menú móvil y animaciones de entrada |
 | `assets/` | Logo, favicons e imagen para redes sociales |
@@ -25,4 +25,4 @@ Luego abrir http://localhost:8000.
 
 ## Agregar imágenes
 
-Colocar los archivos en `assets/` con nombres sin espacios (por ejemplo `equipo-sergio.jpg`) y optimizarlos antes de subirlos.
+Colocar los archivos en `assets/` con nombres sin espacios (por ejemplo `taller-arte.jpg`) y optimizarlos antes de subirlos.

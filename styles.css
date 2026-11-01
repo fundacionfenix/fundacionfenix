@@ -537,33 +537,6 @@ h1 {
   color: var(--red-deep);
 }
 
-/* Team */
-
-.person .avatar {
-  display: grid;
-  place-items: center;
-  width: 4rem;
-  height: 4rem;
-  margin-bottom: 1rem;
-  border-radius: 50%;
-  background: var(--fire);
-  color: #fff;
-  font-family: var(--font-head);
-  font-weight: 800;
-  font-size: 1.15rem;
-}
-
-.person h3 {
-  margin-bottom: 0.25rem;
-}
-
-.person .role {
-  margin-bottom: 0.9rem;
-  color: var(--red-deep);
-  font-weight: 600;
-  font-size: 0.95rem;
-}
-
 /* Support */
 
 .section-fire {
@@ -660,29 +633,13 @@ h1 {
   letter-spacing: 0.03em;
 }
 
-.footer-tagline {
-  margin: 0;
-  color: var(--yellow);
-  font-style: italic;
-}
-
 .footer-quote {
   margin: 0 0 0 auto;
-  max-width: 24rem;
+  color: var(--yellow);
+  font-family: var(--font-head);
+  font-size: 1.35rem;
   font-style: italic;
-}
-
-.footer-quote blockquote {
-  margin: 0;
-}
-
-.footer-quote p {
-  margin: 0 0 0.25rem;
-  color: #fff;
-}
-
-.footer-quote figcaption {
-  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .footer-bottom {
