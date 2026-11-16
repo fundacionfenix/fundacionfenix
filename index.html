@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fundación Fénix Fénix | Salvando Vidas</title>
-  <meta name="description" content="Fundación Fénix Fénix: atención integral, rehabilitación y transformación de personas con problemáticas asociadas al consumo de sustancias psicoactivas. Copacabana, Antioquia, Colombia.">
+  <meta name="description" content="Fundación Fénix Fénix: atención integral, rehabilitación y transformación de personas con problemáticas asociadas al consumo de sustancias psicoactivas, con el Modelo Holístico Clínico. Copacabana, Antioquia, Colombia.">
   <meta name="theme-color" content="#d40d0d">
   <link rel="canonical" href="https://fundacionfenixfenix.org/">
 
@@ -23,8 +23,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700;800;900&display=swap">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preload" as="image" href="assets/logo-700.jpeg">
 
   <script type="application/ld+json">
   {
@@ -48,6 +49,7 @@
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="progress" aria-hidden="true"><span></span></div>
 
   <header class="site-header" id="top">
     <div class="container header-inner">
@@ -56,218 +58,341 @@
         <span class="brand-name">Fundación <strong>Fénix Fénix</strong></span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
-        <span class="visually-hidden">Menú</span>
-        <span class="bars" aria-hidden="true"></span>
-      </button>
-
       <nav id="nav" class="nav" aria-label="Principal">
         <ul>
           <li><a href="#modelo">Modelo</a></li>
           <li><a href="#terapias">Terapias</a></li>
           <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#valores">Valores</a></li>
           <li><a href="#programas">Programas</a></li>
-          <li><a href="#apoyo">Apoya</a></li>
-          <li><a class="btn btn-small" href="#contacto">Contacto</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
+        <a class="btn btn-wa btn-small nav-cta" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Iniciar proceso</span></a>
       </nav>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="visually-hidden">Menú</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
     </div>
   </header>
 
   <main id="contenido">
+    <!-- ============ INICIO ============ -->
     <section class="hero" id="inicio">
+      <span class="blob b1" aria-hidden="true"></span>
+      <span class="blob b2" aria-hidden="true"></span>
+      <span class="blob b3" aria-hidden="true"></span>
       <div class="container hero-inner">
         <div class="hero-copy">
           <p class="eyebrow">Centro de atención integral</p>
-          <h1>Renacer es posible.</h1>
+          <h1><span class="grad">Renacer</span> es&nbsp;posible.</h1>
           <p class="lead">Acompañamos a personas con problemáticas asociadas al consumo de sustancias psicoactivas y a sus familias en un proceso de recuperación, dignidad y reconstrucción del proyecto de vida.</p>
           <div class="hero-actions">
-            <a class="btn" href="#contacto">Contáctanos</a>
-            <a class="btn btn-ghost" href="#modelo">Conoce nuestro modelo</a>
+            <a class="btn btn-wa btn-lg" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Iniciar mi proceso por WhatsApp</span></a>
+            <a class="btn btn-ghost btn-lg" href="#modelo"><span>Conoce nuestro modelo</span></a>
           </div>
-          <ul class="hero-facts" aria-label="Datos clave">
-            <li>Copacabana, Antioquia · Colombia</li>
-            <li>Atención confidencial</li>
-            <li>Modelo Holístico Clínico</li>
+          <ul class="hero-stats" aria-label="Datos clave">
+            <li><strong><span data-count="7">7</span></strong><span>dimensiones de intervención</span></li>
+            <li><strong><span data-count="15">15</span></strong><span>terapias integradas</span></li>
+            <li><strong>Privada</strong><span>atención confidencial</span></li>
           </ul>
         </div>
         <div class="hero-art">
-          <img src="assets/logo-700.jpeg" alt="Logo de la Fundación Fénix Fénix: un ave fénix en llamas y el lema Salvando Vidas" width="700" height="715">
+          <div class="rings" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="hero-card" data-tilt>
+            <img src="assets/logo-700.jpeg" alt="Logo de la Fundación Fénix Fénix: un ave fénix en llamas y el lema Salvando Vidas" width="700" height="715">
+          </div>
+          <p class="hero-place"><span class="pin" aria-hidden="true"></span>Copacabana, Antioquia · Colombia</p>
         </div>
       </div>
     </section>
 
-    <section class="section" id="modelo">
+    <section class="marquee" aria-label="Actividades de la Fundación">
+      <ul class="marquee-track"><li><img src="assets/img/circulo-amarillo-640.webp" alt="Círculo de personas con camisetas amarillas visto desde arriba" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/yoga-640.webp" alt="Grupo practicando yoga en un parque" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/terapia-grupal-640.webp" alt="Terapia grupal en círculo al aire libre" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/musica-640.webp" alt="Sesión de musicoterapia con instrumentos" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/deporte-640.webp" alt="Entrenamiento deportivo en grupo" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/arteterapia-640.webp" alt="Taller de arteterapia al aire libre" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/reiki-640.webp" alt="Sesión de reiki y relajación" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/circulo-rojo-640.webp" alt="Círculo de personas con camisetas rojas visto desde arriba" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/circulo-amarillo-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/yoga-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/terapia-grupal-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/musica-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/deporte-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/arteterapia-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/reiki-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/circulo-rojo-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li></ul>
+      <ul class="marquee-track is-reverse"><li><img src="assets/img/familia-640.webp" alt="Orientación a familias" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/meditacion-640.webp" alt="Meditación guiada en un parque" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/rumbaterapia-640.webp" alt="Rumbaterapia en un parque" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/ocupacional-640.webp" alt="Taller de terapia ocupacional" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/espiritualidad-640.webp" alt="Espacio de reflexión espiritual" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/relajacion-aerea-640.webp" alt="Sesión de relajación en círculo vista desde arriba" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/psicologia-640.webp" alt="Consulta de psicología clínica" width="640" height="427" loading="lazy" decoding="async"></li><li><img src="assets/img/circulo-azul-640.webp" alt="Círculo de personas con camisetas azules visto desde arriba" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/familia-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/meditacion-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/rumbaterapia-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/ocupacional-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/espiritualidad-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/relajacion-aerea-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/psicologia-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li><li aria-hidden="true"><img src="assets/img/circulo-azul-640.webp" alt="" width="640" height="427" loading="lazy" decoding="async"></li></ul>
+    </section>
+
+    <!-- ============ MODELO ============ -->
+    <section class="section section-dark" id="modelo">
       <div class="container">
-        <header class="section-head section-head-center">
-          <p class="eyebrow">Nuestro diferencial</p>
-          <h2>Modelo Holístico Clínico</h2>
+        <header class="section-head center">
+          <p class="eyebrow eyebrow-light">Nuestro diferencial</p>
+          <h2>Modelo <span class="grad">Holístico</span> Clínico</h2>
           <p class="section-intro">No tratamos únicamente el consumo: acompañamos a la persona completa. Siete dimensiones de intervención trabajan juntas para promover la recuperación, la reconstrucción del proyecto de vida y la reintegración familiar y social.</p>
         </header>
 
-        <ul class="chips" aria-label="Dimensiones del modelo">
-          <li><a href="#dim-terapeutica">Terapéutica</a></li>
-          <li><a href="#dim-psicologica">Psicológica</a></li>
-          <li><a href="#dim-educativa">Educativa</a></li>
-          <li><a href="#dim-ocupacional">Ocupacional</a></li>
-          <li><a href="#dim-familiar">Familiar</a></li>
-          <li><a href="#dim-espiritual">Espiritual</a></li>
-          <li><a href="#dim-social">Social</a></li>
-        </ul>
-
-        <ol class="steps">
-          <li class="step" id="dim-terapeutica">
-            <figure class="step-media">
-              <img src="assets/photos/circulo-terapeutico-1200.jpg" srcset="assets/photos/circulo-terapeutico-600.jpg 600w, assets/photos/circulo-terapeutico-1200.jpg 1200w" sizes="(min-width: 800px) 45vw, 100vw" alt="Círculo de terapia grupal con participantes sentados en sillas sobre el césped" width="1200" height="800" loading="lazy" decoding="async">
-            </figure>
-            <div class="step-body">
-              <span class="step-n">01</span>
-              <h3>Terapéutica</h3>
-              <p>Procesos de comunidad terapéutica con espacios grupales e individuales donde cada persona se reconoce, comparte su historia y se fortalece en compañía de otros.</p>
+        <div class="model" data-tabs data-autoplay>
+          <div class="wheel-wrap">
+            <div class="wheel" role="tablist" aria-label="Dimensiones del modelo">
+              <span class="ring" aria-hidden="true"></span>
+              <span class="ring-glow" aria-hidden="true"></span>
+              <div class="wheel-core" aria-hidden="true">
+                <img src="assets/logo-mark-160.jpeg" alt="" width="160" height="154">
+              </div>
+              <button class="node is-active" type="button" role="tab" id="tab-terapeutica" aria-controls="panel-terapeutica" aria-selected="true" tabindex="0" style="--a:0.0deg;--i:0"><span class="node-n">1</span><span class="node-l">Terapéutica</span></button><button class="node" type="button" role="tab" id="tab-psicologica" aria-controls="panel-psicologica" aria-selected="false" tabindex="-1" style="--a:51.429deg;--i:1"><span class="node-n">2</span><span class="node-l">Psicológica</span></button><button class="node" type="button" role="tab" id="tab-educativa" aria-controls="panel-educativa" aria-selected="false" tabindex="-1" style="--a:102.857deg;--i:2"><span class="node-n">3</span><span class="node-l">Educativa</span></button><button class="node" type="button" role="tab" id="tab-ocupacional" aria-controls="panel-ocupacional" aria-selected="false" tabindex="-1" style="--a:154.286deg;--i:3"><span class="node-n">4</span><span class="node-l">Ocupacional</span></button><button class="node" type="button" role="tab" id="tab-familiar" aria-controls="panel-familiar" aria-selected="false" tabindex="-1" style="--a:205.714deg;--i:4"><span class="node-n">5</span><span class="node-l">Familiar</span></button><button class="node" type="button" role="tab" id="tab-espiritual" aria-controls="panel-espiritual" aria-selected="false" tabindex="-1" style="--a:257.143deg;--i:5"><span class="node-n">6</span><span class="node-l">Espiritual</span></button><button class="node" type="button" role="tab" id="tab-social" aria-controls="panel-social" aria-selected="false" tabindex="-1" style="--a:308.571deg;--i:6"><span class="node-n">7</span><span class="node-l">Social</span></button>
             </div>
-          </li>
+            <p class="wheel-hint">Explora cada dimensión</p>
+          </div>
 
-          <li class="step" id="dim-psicologica">
-            <figure class="step-media">
-              <img src="assets/photos/circulo-aereo-azul-sillas-1200.jpg" srcset="assets/photos/circulo-aereo-azul-sillas-600.jpg 600w, assets/photos/circulo-aereo-azul-sillas-1200.jpg 1200w" sizes="(min-width: 800px) 45vw, 100vw" alt="Vista aérea de un grupo sentado en círculo sobre el césped, escuchando a una persona en el centro" width="1200" height="800" loading="lazy" decoding="async">
-            </figure>
-            <div class="step-body">
-              <span class="step-n">02</span>
-              <h3>Psicológica</h3>
-              <p>Acompañamiento psicológico durante todo el tratamiento, a cargo de profesionales con experiencia en adicciones y comprometidos con los procesos reeducativos.</p>
-            </div>
-          </li>
+          <div class="dim-panels">
+            <article class="dim-panel is-active" role="tabpanel" id="panel-terapeutica" aria-labelledby="tab-terapeutica">
+              <figure class="dim-media"><img src="assets/img/terapeutico-1200.webp" srcset="assets/img/terapeutico-640.webp 640w, assets/img/terapeutico-1200.webp 1200w" sizes="(min-width: 960px) 40vw, 92vw" alt="Vista aérea de un círculo de personas sentadas en sillas sobre el césped, alrededor de un participante en el centro" width="1200" height="800" loading="lazy" decoding="async"><figcaption class="dim-badge">01</figcaption></figure>
+              <div class="dim-body">
+                <p class="dim-count">Dimensión 01 <span>de 07</span></p>
+                <h3>Terapéutica</h3>
+                <p class="dim-desc">Procesos de comunidad terapéutica con espacios grupales e individuales donde cada persona se reconoce, comparte su historia y se fortalece en compañía de otros.</p>
+                <ul class="topics"><li>Comunidad terapéutica</li><li>Espacios grupales</li><li>Espacios individuales</li></ul>
+                <p class="dim-sub">Terapias de esta dimensión</p>
+                <ul class="dim-ther"><li><a href="#terapias" data-filter="terapeutica">Terapia grupal</a></li><li><a href="#terapias" data-filter="terapeutica">Yoga y asanas</a></li><li><a href="#terapias" data-filter="terapeutica">Reiki y relajación</a></li></ul>
+                <a class="btn btn-wa btn-small" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20la%20dimensi%C3%B3n%20Terap%C3%A9utica%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Quiero saber más</span></a>
+              </div>
+            </article>
+            <article class="dim-panel" role="tabpanel" id="panel-psicologica" aria-labelledby="tab-psicologica" inert>
+              <figure class="dim-media"><img src="assets/img/psicologia-1200.webp" srcset="assets/img/psicologia-640.webp 640w, assets/img/psicologia-1200.webp 1200w" sizes="(min-width: 960px) 40vw, 92vw" alt="Psicóloga conversando con un paciente en un consultorio con el logo de la Fundación" width="1200" height="800" loading="lazy" decoding="async"><figcaption class="dim-badge">02</figcaption></figure>
+              <div class="dim-body">
+                <p class="dim-count">Dimensión 02 <span>de 07</span></p>
+                <h3>Psicológica</h3>
+                <p class="dim-desc">Acompañamiento psicológico durante todo el tratamiento, a cargo de profesionales con experiencia en adicciones y comprometidos con los procesos reeducativos.</p>
+                <ul class="topics"><li>Acompañamiento continuo</li><li>Procesos reeducativos</li><li>Atención clínica y psiquiátrica</li></ul>
+                <p class="dim-sub">Terapias de esta dimensión</p>
+                <ul class="dim-ther"><li><a href="#terapias" data-filter="psicologica">Psicología clínica</a></li><li><a href="#terapias" data-filter="psicologica">Psiquiatría</a></li></ul>
+                <a class="btn btn-wa btn-small" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20la%20dimensi%C3%B3n%20Psicol%C3%B3gica%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Quiero saber más</span></a>
+              </div>
+            </article>
+            <article class="dim-panel" role="tabpanel" id="panel-educativa" aria-labelledby="tab-educativa" inert>
+              <figure class="dim-media"><img src="assets/img/educacion-1200.webp" srcset="assets/img/educacion-640.webp 640w, assets/img/educacion-1200.webp 1200w" sizes="(min-width: 960px) 40vw, 92vw" alt="Un facilitador explica en un tablero, frente a un grupo sentado en círculo, temas de prevención de recaídas y proyecto de vida" width="1200" height="800" loading="lazy" decoding="async"><figcaption class="dim-badge">03</figcaption></figure>
+              <div class="dim-body">
+                <p class="dim-count">Dimensión 03 <span>de 07</span></p>
+                <h3>Educativa</h3>
+                <p class="dim-desc">Reeducación y fortalecimiento de habilidades para la vida: aprender a pensar, a sentir y a ejercer con responsabilidad la propia libertad.</p>
+                <ul class="topics"><li>Prevención de recaídas</li><li>Autocontrol</li><li>Manejo de emociones</li><li>Proyecto de vida</li></ul>
+                <p class="dim-sub">Terapias de esta dimensión</p>
+                <ul class="dim-ther"><li><a href="#terapias" data-filter="educativa">Educación nutricional</a></li></ul>
+                <a class="btn btn-wa btn-small" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20la%20dimensi%C3%B3n%20Educativa%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Quiero saber más</span></a>
+              </div>
+            </article>
+            <article class="dim-panel" role="tabpanel" id="panel-ocupacional" aria-labelledby="tab-ocupacional" inert>
+              <figure class="dim-media"><img src="assets/img/ocupacional-1200.webp" srcset="assets/img/ocupacional-640.webp 640w, assets/img/ocupacional-1200.webp 1200w" sizes="(min-width: 960px) 40vw, 92vw" alt="Participantes cosiendo, pintando y trabajando la madera en un taller ocupacional" width="1200" height="800" loading="lazy" decoding="async"><figcaption class="dim-badge">04</figcaption></figure>
+              <div class="dim-body">
+                <p class="dim-count">Dimensión 04 <span>de 07</span></p>
+                <h3>Ocupacional</h3>
+                <p class="dim-desc">Actividades creativas y ocupacionales que desarrollan capacidades, generan disciplina y preparan para una vida independiente y saludable.</p>
+                <ul class="topics"><li>Creatividad</li><li>Disciplina</li><li>Rutinas saludables</li><li>Vida independiente</li></ul>
+                <p class="dim-sub">Terapias de esta dimensión</p>
+                <ul class="dim-ther"><li><a href="#terapias" data-filter="ocupacional">Arteterapia</a></li><li><a href="#terapias" data-filter="ocupacional">Deporte y acondicionamiento físico</a></li><li><a href="#terapias" data-filter="ocupacional">Terapia ocupacional y actividades productivas</a></li></ul>
+                <a class="btn btn-wa btn-small" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20la%20dimensi%C3%B3n%20Ocupacional%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Quiero saber más</span></a>
+              </div>
+            </article>
+            <article class="dim-panel" role="tabpanel" id="panel-familiar" aria-labelledby="tab-familiar" inert>
+              <figure class="dim-media"><img src="assets/img/familia-1200.webp" srcset="assets/img/familia-640.webp 640w, assets/img/familia-1200.webp 1200w" sizes="(min-width: 960px) 40vw, 92vw" alt="Una profesional orienta a un grupo de familiares sobre el rol de la familia en la recuperación" width="1200" height="800" loading="lazy" decoding="async"><figcaption class="dim-badge">05</figcaption></figure>
+              <div class="dim-body">
+                <p class="dim-count">Dimensión 05 <span>de 07</span></p>
+                <h3>Familiar</h3>
+                <p class="dim-desc">La recuperación es de toda la familia: acompañamos a los seres queridos, fortalecemos los vínculos y construimos redes de apoyo familiares y comunitarias.</p>
+                <ul class="topics"><li>Proceso terapéutico</li><li>Acompañamiento familiar</li><li>Manejo de la codependencia</li><li>Comunicación asertiva</li><li>Rol de la familia en la recuperación</li></ul>
+                <p class="dim-sub">Terapias de esta dimensión</p>
+                <ul class="dim-ther"><li><a href="#terapias" data-filter="familiar">Terapia familiar</a></li></ul>
+                <a class="btn btn-wa btn-small" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20la%20dimensi%C3%B3n%20Familiar%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Quiero saber más</span></a>
+              </div>
+            </article>
+            <article class="dim-panel" role="tabpanel" id="panel-espiritual" aria-labelledby="tab-espiritual" inert>
+              <figure class="dim-media"><img src="assets/img/espiritualidad-1200.webp" srcset="assets/img/espiritualidad-640.webp 640w, assets/img/espiritualidad-1200.webp 1200w" sizes="(min-width: 960px) 40vw, 92vw" alt="Un grupo reunido en círculo en un espacio de reflexión «A solas con Dios», con una Biblia y una lámpara al centro" width="1200" height="800" loading="lazy" decoding="async"><figcaption class="dim-badge">06</figcaption></figure>
+              <div class="dim-body">
+                <p class="dim-count">Dimensión 06 <span>de 07</span></p>
+                <h3>Espiritual</h3>
+                <p class="dim-desc">Un espacio para el sentido de la vida, la esperanza y el encuentro interior, desde el respeto por las creencias de cada persona.</p>
+                <ul class="topics"><li>Sentido de vida</li><li>Esperanza</li><li>Encuentro interior</li><li>Respeto por las creencias</li></ul>
+                <p class="dim-sub">Terapias de esta dimensión</p>
+                <ul class="dim-ther"><li><a href="#terapias" data-filter="espiritual">Meditación</a></li><li><a href="#terapias" data-filter="espiritual">Espiritualidad: a solas con Dios</a></li></ul>
+                <a class="btn btn-wa btn-small" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20la%20dimensi%C3%B3n%20Espiritual%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Quiero saber más</span></a>
+              </div>
+            </article>
+            <article class="dim-panel" role="tabpanel" id="panel-social" aria-labelledby="tab-social" inert>
+              <figure class="dim-media"><img src="assets/img/circulo-amarillo-1200.webp" srcset="assets/img/circulo-amarillo-640.webp 640w, assets/img/circulo-amarillo-1200.webp 1200w" sizes="(min-width: 960px) 40vw, 92vw" alt="Vista aérea de personas con camisetas amarillas tomadas de las manos formando círculos concéntricos" width="1200" height="800" loading="lazy" decoding="async"><figcaption class="dim-badge">07</figcaption></figure>
+              <div class="dim-body">
+                <p class="dim-count">Dimensión 07 <span>de 07</span></p>
+                <h3>Social</h3>
+                <p class="dim-desc">Reintegración a la comunidad: recuperar el lugar en la sociedad, aportar a ella y construir nuevas oportunidades de vida.</p>
+                <ul class="topics"><li>Reintegración</li><li>Redes de apoyo</li><li>Nuevas oportunidades</li><li>Aporte a la comunidad</li></ul>
+                <p class="dim-sub">Terapias de esta dimensión</p>
+                <ul class="dim-ther"><li><a href="#terapias" data-filter="social">Rumbaterapia</a></li><li><a href="#terapias" data-filter="social">Trabajo social</a></li><li><a href="#terapias" data-filter="social">Musicoterapia</a></li></ul>
+                <a class="btn btn-wa btn-small" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20saber%20m%C3%A1s%20sobre%20la%20dimensi%C3%B3n%20Social%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Quiero saber más</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
 
-          <li class="step" id="dim-educativa">
-            <figure class="step-media">
-              <img src="assets/photos/dinamica-grupal-1200.jpg" srcset="assets/photos/dinamica-grupal-600.jpg 600w, assets/photos/dinamica-grupal-1200.jpg 1200w" sizes="(min-width: 800px) 45vw, 100vw" alt="Guías dirigiendo una dinámica de aprendizaje con un grupo de jóvenes en un parque" width="1200" height="800" loading="lazy" decoding="async">
-            </figure>
-            <div class="step-body">
-              <span class="step-n">03</span>
-              <h3>Educativa</h3>
-              <p>Reeducación y fortalecimiento de habilidades para la vida: aprender a pensar, a sentir y a ejercer con responsabilidad la propia libertad.</p>
-            </div>
-          </li>
-
-          <li class="step" id="dim-ocupacional">
-            <figure class="step-media">
-              <img src="assets/photos/arte-terapia-1200.jpg" srcset="assets/photos/arte-terapia-600.jpg 600w, assets/photos/arte-terapia-1200.jpg 1200w" sizes="(min-width: 800px) 45vw, 100vw" alt="Personas pintando y creando juntas en mesas al aire libre durante un taller de arte" width="1200" height="800" loading="lazy" decoding="async">
-            </figure>
-            <div class="step-body">
-              <span class="step-n">04</span>
-              <h3>Ocupacional</h3>
-              <p>Actividades creativas y ocupacionales que desarrollan capacidades, generan disciplina y preparan para una vida independiente y saludable.</p>
-            </div>
-          </li>
-
-          <li class="step" id="dim-familiar">
-            <figure class="step-media">
-              <img src="assets/photos/circulo-aereo-amarillo-1200.jpg" srcset="assets/photos/circulo-aereo-amarillo-600.jpg 600w, assets/photos/circulo-aereo-amarillo-1200.jpg 1200w" sizes="(min-width: 800px) 45vw, 100vw" alt="Vista aérea de personas con camisetas amarillas tomadas de las manos formando un círculo" width="1200" height="800" loading="lazy" decoding="async">
-            </figure>
-            <div class="step-body">
-              <span class="step-n">05</span>
-              <h3>Familiar</h3>
-              <p>La recuperación es de toda la familia: acompañamos a los seres queridos, fortalecemos los vínculos y construimos redes de apoyo familiares y comunitarias.</p>
-            </div>
-          </li>
-
-          <li class="step" id="dim-espiritual">
-            <figure class="step-media">
-              <img src="assets/photos/meditacion-1200.jpg" srcset="assets/photos/meditacion-600.jpg 600w, assets/photos/meditacion-1200.jpg 1200w" sizes="(min-width: 800px) 45vw, 100vw" alt="Sesión de meditación guiada con un grupo sentado sobre colchonetas al aire libre" width="1200" height="800" loading="lazy" decoding="async">
-            </figure>
-            <div class="step-body">
-              <span class="step-n">06</span>
-              <h3>Espiritual</h3>
-              <p>Un espacio para el sentido de la vida, la esperanza y el encuentro interior, desde el respeto por las creencias de cada persona.</p>
-            </div>
-          </li>
-
-          <li class="step" id="dim-social">
-            <figure class="step-media">
-              <img src="assets/photos/alegria-grupal-1200.jpg" srcset="assets/photos/alegria-grupal-600.jpg 600w, assets/photos/alegria-grupal-1200.jpg 1200w" sizes="(min-width: 800px) 45vw, 100vw" alt="Un grupo de personas sonrientes con camisetas amarillas rodea con los brazos abiertos a su guía en un parque" width="1200" height="800" loading="lazy" decoding="async">
-            </figure>
-            <div class="step-body">
-              <span class="step-n">07</span>
-              <h3>Social</h3>
-              <p>Reintegración a la comunidad: recuperar el lugar en la sociedad, aportar a ella y construir nuevas oportunidades de vida.</p>
-            </div>
-          </li>
-        </ol>
-
+        <div class="model-cta">
+          <p>¿Quieres saber cómo se aplica el modelo en tu caso o el de tu familiar?</p>
+          <a class="btn btn-wa" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20conocer%20m%C3%A1s%20sobre%20el%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Hablemos por WhatsApp</span></a>
+        </div>
         <p class="media-note">Imágenes ilustrativas.</p>
       </div>
     </section>
 
+    <!-- ============ TERAPIAS ============ -->
     <section class="section section-tint" id="terapias">
       <div class="container">
         <header class="section-head">
           <p class="eyebrow">Salvando Vidas</p>
-          <h2>Terapias del Modelo Holístico Clínico</h2>
+          <h2>Terapias del Modelo <span class="grad">Holístico Clínico</span></h2>
           <p class="section-intro">Nuestro Modelo Holístico Clínico integra diferentes estrategias terapéuticas orientadas a la recuperación física, mental, emocional, familiar, social y espiritual de las personas consumidoras de sustancias psicoactivas.</p>
         </header>
 
-        <ol class="grid grid-3 values">
-          <li class="card">
-            <h3>Psicología clínica</h3>
-            <p>Identificamos y trabajamos los pensamientos, emociones y comportamientos relacionados con el consumo, fortaleciendo el autoconocimiento y la prevención de recaídas.</p>
+        <ul class="chips" id="filtros" aria-label="Filtrar terapias por dimensión"><li><button class="chip is-active" type="button" data-filter-btn="all" aria-pressed="true">Todas <span>15</span></button></li><li><button class="chip" type="button" data-filter-btn="terapeutica" aria-pressed="false">Terapéutica <span>3</span></button></li><li><button class="chip" type="button" data-filter-btn="psicologica" aria-pressed="false">Psicológica <span>2</span></button></li><li><button class="chip" type="button" data-filter-btn="educativa" aria-pressed="false">Educativa <span>1</span></button></li><li><button class="chip" type="button" data-filter-btn="ocupacional" aria-pressed="false">Ocupacional <span>3</span></button></li><li><button class="chip" type="button" data-filter-btn="familiar" aria-pressed="false">Familiar <span>1</span></button></li><li><button class="chip" type="button" data-filter-btn="espiritual" aria-pressed="false">Espiritual <span>2</span></button></li><li><button class="chip" type="button" data-filter-btn="social" aria-pressed="false">Social <span>3</span></button></li></ul>
+
+        <ul class="t-grid" id="t-grid">
+          <li class="t-card" data-dim="psicologica">
+            <figure class="t-media"><img src="assets/img/psicologia-1200.webp" srcset="assets/img/psicologia-640.webp 640w, assets/img/psicologia-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Sesión de psicología clínica entre una psicóloga y un paciente" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="psicologica" aria-label="Ver la dimensión Psicológica en el modelo">Psicológica</button>
+              <h3>Psicología clínica</h3>
+              <p>Identificamos y trabajamos los pensamientos, emociones y comportamientos relacionados con el consumo, fortaleciendo el autoconocimiento y la prevención de recaídas.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Psicolog%C3%ADa%20cl%C3%ADnica%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Psiquiatría</h3>
-            <p>Brindamos evaluación, diagnóstico y tratamiento especializado de las condiciones de salud mental que requieren atención médica.</p>
+          <li class="t-card" data-dim="psicologica">
+            <figure class="t-media"><img src="assets/img/psiquiatria-1200.webp" srcset="assets/img/psiquiatria-640.webp 640w, assets/img/psiquiatria-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Médico psiquiatra conversando con un paciente en consulta" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="psicologica" aria-label="Ver la dimensión Psicológica en el modelo">Psicológica</button>
+              <h3>Psiquiatría</h3>
+              <p>Brindamos evaluación, diagnóstico y tratamiento especializado de las condiciones de salud mental que requieren atención médica.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Psiquiatr%C3%ADa%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Terapia grupal</h3>
-            <p>Promovemos la expresión de experiencias, la identificación de dificultades, el apoyo mutuo y el desarrollo de habilidades sociales.</p>
+          <li class="t-card" data-dim="terapeutica">
+            <figure class="t-media"><img src="assets/img/terapia-grupal-1200.webp" srcset="assets/img/terapia-grupal-640.webp 640w, assets/img/terapia-grupal-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Un gran círculo de terapia grupal sobre el césped de un parque" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="terapeutica" aria-label="Ver la dimensión Terapéutica en el modelo">Terapéutica</button>
+              <h3>Terapia grupal</h3>
+              <p>Promovemos la expresión de experiencias, la identificación de dificultades, el apoyo mutuo y el desarrollo de habilidades sociales.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Terapia%20grupal%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Yoga y asanas</h3>
-            <p>Mediante posturas, respiración y conciencia corporal, favorecemos la relajación, el equilibrio y la conexión entre cuerpo y mente.</p>
+          <li class="t-card" data-dim="terapeutica">
+            <figure class="t-media"><img src="assets/img/yoga-1200.webp" srcset="assets/img/yoga-640.webp 640w, assets/img/yoga-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Grupo practicando posturas de yoga sobre colchonetas en un parque" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="terapeutica" aria-label="Ver la dimensión Terapéutica en el modelo">Terapéutica</button>
+              <h3>Yoga y asanas</h3>
+              <p>Mediante posturas, respiración y conciencia corporal, favorecemos la relajación, el equilibrio y la conexión entre cuerpo y mente.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Yoga%20y%20asanas%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Meditación</h3>
-            <p>Fortalecemos la concentración, la tranquilidad interior, el autocontrol y la capacidad de reconocer y gestionar las emociones.</p>
+          <li class="t-card" data-dim="espiritual">
+            <figure class="t-media"><img src="assets/img/meditacion-1200.webp" srcset="assets/img/meditacion-640.webp 640w, assets/img/meditacion-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Sesión de meditación guiada con un grupo sentado al aire libre" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="espiritual" aria-label="Ver la dimensión Espiritual en el modelo">Espiritual</button>
+              <h3>Meditación</h3>
+              <p>Fortalecemos la concentración, la tranquilidad interior, el autocontrol y la capacidad de reconocer y gestionar las emociones.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Meditaci%C3%B3n%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Arteterapia</h3>
-            <p>Utilizamos la pintura, el dibujo y otras expresiones artísticas para facilitar la comunicación emocional, la creatividad y el autoconocimiento.</p>
+          <li class="t-card" data-dim="ocupacional">
+            <figure class="t-media"><img src="assets/img/arteterapia-1200.webp" srcset="assets/img/arteterapia-640.webp 640w, assets/img/arteterapia-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Participantes pintando y creando juntos en mesas al aire libre" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="ocupacional" aria-label="Ver la dimensión Ocupacional en el modelo">Ocupacional</button>
+              <h3>Arteterapia</h3>
+              <p>Utilizamos la pintura, el dibujo y otras expresiones artísticas para facilitar la comunicación emocional, la creatividad y el autoconocimiento.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Arteterapia%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Rumbaterapia</h3>
-            <p>Utilizamos el baile como herramienta de transformación, motivación, expresión emocional y fortalecimiento de las relaciones interpersonales.</p>
+          <li class="t-card" data-dim="social">
+            <figure class="t-media"><img src="assets/img/rumbaterapia-1200.webp" srcset="assets/img/rumbaterapia-640.webp 640w, assets/img/rumbaterapia-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Guías dirigiendo una sesión de baile con un grupo en un parque" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="social" aria-label="Ver la dimensión Social en el modelo">Social</button>
+              <h3>Rumbaterapia</h3>
+              <p>Utilizamos el baile como herramienta de transformación, motivación, expresión emocional y fortalecimiento de las relaciones interpersonales.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Rumbaterapia%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Deporte y acondicionamiento físico</h3>
-            <p>Fomentamos la disciplina, el trabajo en equipo, la resistencia física y la adquisición de estilos de vida saludables.</p>
+          <li class="t-card" data-dim="ocupacional">
+            <figure class="t-media"><img src="assets/img/deporte-1200.webp" srcset="assets/img/deporte-640.webp 640w, assets/img/deporte-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Grupo con camisetas amarillas haciendo ejercicio en una cancha" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="ocupacional" aria-label="Ver la dimensión Ocupacional en el modelo">Ocupacional</button>
+              <h3>Deporte y acondicionamiento físico</h3>
+              <p>Fomentamos la disciplina, el trabajo en equipo, la resistencia física y la adquisición de estilos de vida saludables.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Deporte%20y%20acondicionamiento%20f%C3%ADsico%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Trabajo social</h3>
-            <p>Intervenimos en las dinámicas familiares y sociales, fortaleciendo las redes de apoyo y preparando al paciente para su reintegración social.</p>
+          <li class="t-card" data-dim="social">
+            <figure class="t-media"><img src="assets/img/circulo-azul-1200.webp" srcset="assets/img/circulo-azul-640.webp 640w, assets/img/circulo-azul-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Vista aérea de un gran círculo de personas con los brazos extendidos alrededor de un guía" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="social" aria-label="Ver la dimensión Social en el modelo">Social</button>
+              <h3>Trabajo social</h3>
+              <p>Intervenimos en las dinámicas familiares y sociales, fortaleciendo las redes de apoyo y preparando al paciente para su reintegración social.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Trabajo%20social%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Terapia familiar</h3>
-            <p>Buscamos reconstruir vínculos afectivos, mejorar la comunicación y comprometer a la familia con el proceso de recuperación.</p>
+          <li class="t-card" data-dim="familiar">
+            <figure class="t-media"><img src="assets/img/familia-1200.webp" srcset="assets/img/familia-640.webp 640w, assets/img/familia-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Orientación a familias en una sala con el logo de la Fundación" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="familiar" aria-label="Ver la dimensión Familiar en el modelo">Familiar</button>
+              <h3>Terapia familiar</h3>
+              <p>Buscamos reconstruir vínculos afectivos, mejorar la comunicación y comprometer a la familia con el proceso de recuperación.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Terapia%20familiar%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Espiritualidad: a solas con Dios</h3>
-            <p>Ofrecemos un espacio de reflexión, esperanza, fortalecimiento interior y búsqueda de sentido de vida, respetando las creencias individuales.</p>
+          <li class="t-card" data-dim="espiritual">
+            <figure class="t-media"><img src="assets/img/espiritualidad-1200.webp" srcset="assets/img/espiritualidad-640.webp 640w, assets/img/espiritualidad-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Grupo en círculo durante un espacio de reflexión espiritual" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="espiritual" aria-label="Ver la dimensión Espiritual en el modelo">Espiritual</button>
+              <h3>Espiritualidad: a solas con Dios</h3>
+              <p>Ofrecemos un espacio de reflexión, esperanza, fortalecimiento interior y búsqueda de sentido de vida, respetando las creencias individuales.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Espiritualidad%3A%20a%20solas%20con%20Dios%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Reiki y relajación</h3>
-            <p>Como prácticas complementarias de bienestar, ofrecemos espacios de relajación y tranquilidad, sin sustituir los tratamientos clínicos.</p>
+          <li class="t-card" data-dim="terapeutica">
+            <figure class="t-media"><img src="assets/img/reiki-1200.webp" srcset="assets/img/reiki-640.webp 640w, assets/img/reiki-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Terapeuta de reiki con las manos sobre un participante recostado en una camilla" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="terapeutica" aria-label="Ver la dimensión Terapéutica en el modelo">Terapéutica</button>
+              <h3>Reiki y relajación</h3>
+              <p>Como prácticas complementarias de bienestar, ofrecemos espacios de relajación y tranquilidad, sin sustituir los tratamientos clínicos.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Reiki%20y%20relajaci%C3%B3n%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Educación nutricional</h3>
-            <p>Promovemos hábitos alimentarios saludables y la recuperación del bienestar físico mediante orientación nutricional.</p>
+          <li class="t-card" data-dim="educativa">
+            <figure class="t-media"><img src="assets/img/educacion-1200.webp" srcset="assets/img/educacion-640.webp 640w, assets/img/educacion-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Sesión educativa con un facilitador y un grupo sentado en círculo" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="educativa" aria-label="Ver la dimensión Educativa en el modelo">Educativa</button>
+              <h3>Educación nutricional</h3>
+              <p>Promovemos hábitos alimentarios saludables y la recuperación del bienestar físico mediante orientación nutricional.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Educaci%C3%B3n%20nutricional%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-          <li class="card">
-            <h3>Terapia ocupacional y actividades productivas</h3>
-            <p>Fortalecemos la autonomía, la responsabilidad, las habilidades prácticas y la construcción de rutinas saludables.</p>
+          <li class="t-card" data-dim="ocupacional">
+            <figure class="t-media"><img src="assets/img/ocupacional-1200.webp" srcset="assets/img/ocupacional-640.webp 640w, assets/img/ocupacional-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Taller de costura, pintura y carpintería con participantes trabajando" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="ocupacional" aria-label="Ver la dimensión Ocupacional en el modelo">Ocupacional</button>
+              <h3>Terapia ocupacional y actividades productivas</h3>
+              <p>Fortalecemos la autonomía, la responsabilidad, las habilidades prácticas y la construcción de rutinas saludables.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Terapia%20ocupacional%20y%20actividades%20productivas%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
           </li>
-        </ol>
+          <li class="t-card" data-dim="social">
+            <figure class="t-media"><img src="assets/img/musica-1200.webp" srcset="assets/img/musica-640.webp 640w, assets/img/musica-1200.webp 1200w" sizes="(min-width: 960px) 30vw, (min-width: 600px) 45vw, 92vw" alt="Grupo tocando guitarra, tambores y otros instrumentos en una sala" width="1200" height="800" loading="lazy" decoding="async"></figure>
+            <div class="t-body">
+              <button class="t-dim" type="button" data-goto-dim="social" aria-label="Ver la dimensión Social en el modelo">Social</button>
+              <h3>Musicoterapia</h3>
+              <p>Usamos la música y el ritmo como medio de expresión emocional, integración del grupo y bienestar.</p>
+              <a class="t-ask" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20Musicoterapia%20del%20Modelo%20Hol%C3%ADstico%20Cl%C3%ADnico%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Preguntar por esta terapia <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </div>
+          </li>
+        </ul>
+        <p class="media-note">Imágenes ilustrativas.</p>
       </div>
     </section>
 
+    <section class="cta-band">
+      <div class="container cta-inner">
+        <div>
+          <h2>¿Listo para dar el primer paso?</h2>
+          <p>Escríbenos por WhatsApp. Tu consulta es confidencial y no tiene ningún compromiso.</p>
+        </div>
+        <a class="btn btn-light btn-lg" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Escribir ahora</span></a>
+      </div>
+    </section>
+
+    <!-- ============ NOSOTROS ============ -->
     <section class="section" id="nosotros">
       <div class="container">
         <header class="section-head">
@@ -276,108 +401,141 @@
           <p class="section-intro">Una institución dedicada a la atención, rehabilitación y transformación integral de personas con problemáticas asociadas al consumo de sustancias psicoactivas, bajo un Modelo Holístico Clínico que promueve la recuperación, la dignidad humana, la reconstrucción del proyecto de vida y la reintegración familiar y social.</p>
         </header>
 
-        <div class="grid grid-2">
-          <article class="card card-accent">
-            <h3>Misión</h3>
-            <p>La Fundación Fénix Fénix tiene como misión brindar atención integral a personas con problemáticas asociadas al consumo de sustancias psicoactivas y otras conductas que afectan su bienestar biopsicosocial, mediante la implementación de un Modelo Holístico Clínico que integra intervenciones terapéuticas, psicológicas, educativas, ocupacionales, familiares, espirituales y sociales.</p>
-            <p>Promovemos procesos de transformación personal, recuperación, fortalecimiento de habilidades para la vida y reconstrucción del proyecto de vida, en un entorno seguro, humanizado, respetuoso e incluyente, donde cada persona sea reconocida como protagonista de su propio proceso de cambio.</p>
-          </article>
+        <div class="about" data-tabs>
+          <div class="seg" role="tablist" aria-label="Misión y visión">
+            <button class="seg-btn is-active" type="button" role="tab" id="tab-mision" aria-controls="panel-mision" aria-selected="true" tabindex="0">Misión</button>
+            <button class="seg-btn" type="button" role="tab" id="tab-vision" aria-controls="panel-vision" aria-selected="false" tabindex="-1">Visión <span class="seg-year">2030</span></button>
+          </div>
 
-          <article class="card card-accent">
-            <h3>Visión</h3>
-            <p>Para el año 2030, la Fundación Fénix Fénix será reconocida a nivel nacional e internacional como una institución referente en atención integral, rehabilitación y transformación humana, destacándose por la calidad de sus procesos terapéuticos, la innovación de su Modelo Holístico Clínico y su compromiso con la recuperación de personas afectadas por el consumo de sustancias psicoactivas.</p>
-            <p>Aspiramos a consolidar una institución sostenible, con talento humano competente, infraestructura adecuada, programas de intervención innovadores y alianzas estratégicas que contribuyan a la construcción de una sociedad más consciente, saludable, solidaria e incluyente.</p>
-          </article>
+          <div class="about-panels">
+            <article class="about-panel is-active" role="tabpanel" id="panel-mision" aria-labelledby="tab-mision">
+              <span class="about-mark" aria-hidden="true">Misión</span>
+              <p class="about-lead">La Fundación Fénix Fénix tiene como misión brindar atención integral a personas con problemáticas asociadas al consumo de sustancias psicoactivas y otras conductas que afectan su bienestar biopsicosocial, mediante la implementación de un Modelo Holístico Clínico que integra intervenciones terapéuticas, psicológicas, educativas, ocupacionales, familiares, espirituales y sociales.</p>
+              <p>Promovemos procesos de transformación personal, recuperación, fortalecimiento de habilidades para la vida y reconstrucción del proyecto de vida, en un entorno seguro, humanizado, respetuoso e incluyente, donde cada persona sea reconocida como protagonista de su propio proceso de cambio.</p>
+            </article>
+            <article class="about-panel" role="tabpanel" id="panel-vision" aria-labelledby="tab-vision" inert>
+              <span class="about-mark" aria-hidden="true">Visión</span>
+              <p class="about-lead">Para el año 2030, la Fundación Fénix Fénix será reconocida a nivel nacional e internacional como una institución referente en atención integral, rehabilitación y transformación humana, destacándose por la calidad de sus procesos terapéuticos, la innovación de su Modelo Holístico Clínico y su compromiso con la recuperación de personas afectadas por el consumo de sustancias psicoactivas.</p>
+              <p>Aspiramos a consolidar una institución sostenible, con talento humano competente, infraestructura adecuada, programas de intervención innovadores y alianzas estratégicas que contribuyan a la construcción de una sociedad más consciente, saludable, solidaria e incluyente.</p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-tint" id="filosofia">
-      <div class="container narrow">
-        <header class="section-head">
-          <p class="eyebrow">Filosofía institucional</p>
-          <h2>Toda persona puede renacer</h2>
-        </header>
-        <div class="prose">
-          <p class="pull">En la Fundación Fénix Fénix creemos que toda persona tiene la capacidad de renacer, reconstruirse y transformar su historia.</p>
-          <p>Nuestro símbolo institucional representa el ave fénix: la fuerza para levantarse, superar las dificultades y comenzar nuevamente.</p>
+    <!-- ============ FILOSOFÍA ============ -->
+    <section class="section section-dark phil" id="filosofia">
+      <img class="phil-bg" src="assets/img/circulo-azul-1200.webp" srcset="assets/img/circulo-azul-640.webp 640w, assets/img/circulo-azul-1200.webp 1200w" sizes="100vw" alt="" width="1200" height="800" loading="lazy" decoding="async">
+      <div class="phil-shade" aria-hidden="true"></div>
+      <div class="container narrow phil-inner">
+        <p class="eyebrow eyebrow-light">Filosofía institucional</p>
+        <h2 class="visually-hidden">Toda persona puede renacer</h2>
+        <p class="hl" data-hl>En la Fundación Fénix Fénix creemos que toda persona tiene la capacidad de renacer, reconstruirse y transformar su historia. Nuestro símbolo institucional representa el ave fénix: la fuerza para levantarse, superar las dificultades y comenzar nuevamente.</p>
+      </div>
+      <div class="container phil-cards">
+        <article class="glass">
+          <h3>Un proceso integral</h3>
           <p>Entendemos la recuperación como un proceso integral que requiere acompañamiento, disciplina, conciencia, compromiso personal y apoyo familiar y social.</p>
+        </article>
+        <article class="glass">
+          <h3>Reconstruir seres humanos</h3>
           <p>No trabajamos únicamente para superar una problemática de consumo; trabajamos para ayudar a reconstruir seres humanos, recuperar familias y transformar proyectos de vida.</p>
+        </article>
+        <article class="glass">
+          <h3>En todas las dimensiones</h3>
           <p>En Fundación Fénix Fénix entendemos que la recuperación va más allá de abandonar el consumo de sustancias psicoactivas. Es un proceso de transformación integral que busca recuperar al ser humano en todas sus dimensiones.</p>
-          <p class="closing">Salvando Vidas, reconstruyendo historias y transformando futuros</p>
-        </div>
-        <figure class="wide-photo">
-          <img src="assets/photos/circulo-aereo-azul-1200.jpg" srcset="assets/photos/circulo-aereo-azul-600.jpg 600w, assets/photos/circulo-aereo-azul-1200.jpg 1200w" sizes="(min-width: 800px) 768px, 100vw" alt="Vista aérea de un gran círculo de personas con los brazos extendidos alrededor de un guía, sobre el césped" width="1200" height="800" loading="lazy" decoding="async">
-        </figure>
+        </article>
       </div>
+      <p class="container narrow phil-closing">Salvando Vidas, reconstruyendo historias y transformando futuros</p>
     </section>
 
+    <!-- ============ VALORES ============ -->
     <section class="section" id="valores">
       <div class="container">
         <header class="section-head">
           <p class="eyebrow">Lo que nos guía</p>
           <h2>Valores institucionales</h2>
+          <p class="section-intro">Nueve principios que orientan cada decisión y cada encuentro. Toca una tarjeta para leerlo.</p>
         </header>
-
-        <ol class="grid grid-3 values">
-          <li class="card">
-            <h3>Humanización</h3>
-            <p>Reconocemos el valor y la dignidad de cada ser humano, brindando atención cálida, respetuosa y libre de discriminación.</p>
+        <ol class="flip-grid">
+          <li class="flip">
+            <button class="flip-inner" type="button" aria-pressed="false">
+              <span class="flip-face flip-front"><span class="flip-n">01</span><span class="flip-t">Humanización</span><span class="flip-hint" aria-hidden="true">Toca para leer</span></span>
+              <span class="flip-face flip-back"><span class="flip-t">Humanización</span><span class="flip-d">Reconocemos el valor y la dignidad de cada ser humano, brindando atención cálida, respetuosa y libre de discriminación.</span></span>
+            </button>
           </li>
-          <li class="card">
-            <h3>Respeto</h3>
-            <p>Valoramos las diferencias individuales, las historias de vida, las creencias y los derechos de cada persona.</p>
+          <li class="flip">
+            <button class="flip-inner" type="button" aria-pressed="false">
+              <span class="flip-face flip-front"><span class="flip-n">02</span><span class="flip-t">Respeto</span><span class="flip-hint" aria-hidden="true">Toca para leer</span></span>
+              <span class="flip-face flip-back"><span class="flip-t">Respeto</span><span class="flip-d">Valoramos las diferencias individuales, las historias de vida, las creencias y los derechos de cada persona.</span></span>
+            </button>
           </li>
-          <li class="card">
-            <h3>Esperanza</h3>
-            <p>Creemos en la capacidad de transformación del ser humano y en la posibilidad de construir nuevas oportunidades de vida.</p>
+          <li class="flip">
+            <button class="flip-inner" type="button" aria-pressed="false">
+              <span class="flip-face flip-front"><span class="flip-n">03</span><span class="flip-t">Esperanza</span><span class="flip-hint" aria-hidden="true">Toca para leer</span></span>
+              <span class="flip-face flip-back"><span class="flip-t">Esperanza</span><span class="flip-d">Creemos en la capacidad de transformación del ser humano y en la posibilidad de construir nuevas oportunidades de vida.</span></span>
+            </button>
           </li>
-          <li class="card">
-            <h3>Compromiso</h3>
-            <p>Actuamos con responsabilidad, vocación de servicio y dedicación frente a los procesos de recuperación y transformación.</p>
+          <li class="flip">
+            <button class="flip-inner" type="button" aria-pressed="false">
+              <span class="flip-face flip-front"><span class="flip-n">04</span><span class="flip-t">Compromiso</span><span class="flip-hint" aria-hidden="true">Toca para leer</span></span>
+              <span class="flip-face flip-back"><span class="flip-t">Compromiso</span><span class="flip-d">Actuamos con responsabilidad, vocación de servicio y dedicación frente a los procesos de recuperación y transformación.</span></span>
+            </button>
           </li>
-          <li class="card">
-            <h3>Solidaridad</h3>
-            <p>Fomentamos el acompañamiento, el apoyo mutuo y la construcción de redes familiares y comunitarias.</p>
+          <li class="flip">
+            <button class="flip-inner" type="button" aria-pressed="false">
+              <span class="flip-face flip-front"><span class="flip-n">05</span><span class="flip-t">Solidaridad</span><span class="flip-hint" aria-hidden="true">Toca para leer</span></span>
+              <span class="flip-face flip-back"><span class="flip-t">Solidaridad</span><span class="flip-d">Fomentamos el acompañamiento, el apoyo mutuo y la construcción de redes familiares y comunitarias.</span></span>
+            </button>
           </li>
-          <li class="card">
-            <h3>Autonomía</h3>
-            <p>Promovemos la toma de decisiones responsables, el autocuidado y el desarrollo de capacidades para una vida independiente y saludable.</p>
+          <li class="flip">
+            <button class="flip-inner" type="button" aria-pressed="false">
+              <span class="flip-face flip-front"><span class="flip-n">06</span><span class="flip-t">Autonomía</span><span class="flip-hint" aria-hidden="true">Toca para leer</span></span>
+              <span class="flip-face flip-back"><span class="flip-t">Autonomía</span><span class="flip-d">Promovemos la toma de decisiones responsables, el autocuidado y el desarrollo de capacidades para una vida independiente y saludable.</span></span>
+            </button>
           </li>
-          <li class="card">
-            <h3>Transformación</h3>
-            <p>Impulsamos cambios positivos en las dimensiones física, emocional, mental, familiar, social y espiritual.</p>
+          <li class="flip">
+            <button class="flip-inner" type="button" aria-pressed="false">
+              <span class="flip-face flip-front"><span class="flip-n">07</span><span class="flip-t">Transformación</span><span class="flip-hint" aria-hidden="true">Toca para leer</span></span>
+              <span class="flip-face flip-back"><span class="flip-t">Transformación</span><span class="flip-d">Impulsamos cambios positivos en las dimensiones física, emocional, mental, familiar, social y espiritual.</span></span>
+            </button>
           </li>
-          <li class="card">
-            <h3>Honestidad y transparencia</h3>
-            <p>Desarrollamos nuestras actuaciones con ética, coherencia, sinceridad y claridad institucional.</p>
+          <li class="flip">
+            <button class="flip-inner" type="button" aria-pressed="false">
+              <span class="flip-face flip-front"><span class="flip-n">08</span><span class="flip-t">Honestidad y transparencia</span><span class="flip-hint" aria-hidden="true">Toca para leer</span></span>
+              <span class="flip-face flip-back"><span class="flip-t">Honestidad y transparencia</span><span class="flip-d">Desarrollamos nuestras actuaciones con ética, coherencia, sinceridad y claridad institucional.</span></span>
+            </button>
           </li>
-          <li class="card">
-            <h3>Calidad y excelencia</h3>
-            <p>Trabajamos por el mejoramiento continuo de nuestros servicios, con intervenciones responsables, humanizadas y fundamentadas.</p>
+          <li class="flip">
+            <button class="flip-inner" type="button" aria-pressed="false">
+              <span class="flip-face flip-front"><span class="flip-n">09</span><span class="flip-t">Calidad y excelencia</span><span class="flip-hint" aria-hidden="true">Toca para leer</span></span>
+              <span class="flip-face flip-back"><span class="flip-t">Calidad y excelencia</span><span class="flip-d">Trabajamos por el mejoramiento continuo de nuestros servicios, con intervenciones responsables, humanizadas y fundamentadas.</span></span>
+            </button>
           </li>
         </ol>
       </div>
     </section>
 
+    <!-- ============ COMUNIDAD ============ -->
     <section class="section section-tint" id="comunidad">
       <div class="container">
-        <header class="section-head">
+        <header class="section-head center">
           <p class="eyebrow">Filosofía de la comunidad terapéutica</p>
           <h2>Ayer, hoy y mañana</h2>
         </header>
 
-        <div class="grid grid-3 timeline">
-          <article class="card">
-            <h3>Ayer</h3>
+        <div class="journey">
+          <div class="journey-line" aria-hidden="true"><span></span></div>
+          <article class="j-card j-ayer">
+            <span class="j-tag">Ayer</span>
             <p>Caminábamos en las oscuras sendas de nuestras vidas, en una búsqueda incierta, sin luz, sin sentido, ignorando quiénes éramos y nuestra razón de ser en el universo. Cargando pesadas cadenas, solo un destino parecía seguro: el de la autodestrucción y la muerte.</p>
           </article>
-          <article class="card">
-            <h3>Hoy</h3>
+          <article class="j-card j-hoy">
+            <span class="j-tag">Hoy</span>
             <p>La vida nos privilegia estando aquí, unidos por fuertes lazos de hermandad, con puntos de convergencia que nos permiten conocernos en los otros, para respetarnos, aprender a pensar, a sentir y a ejercer responsablemente nuestra libertad. Juntos encontramos el horizonte perdido, sentimos que no estamos solos y aprendemos a vivir.</p>
           </article>
-          <article class="card">
-            <h3>Mañana</h3>
+          <article class="j-card j-manana">
+            <span class="j-tag">Mañana</span>
             <p>Una vez rotas nuestras cadenas, recogemos los frutos de nuestra lucha. Como personas libres, sobrias y dignas, haremos nuestro aporte a la sociedad y compartiremos con alegría y esperanza el sentido de la vida.</p>
           </article>
         </div>
@@ -385,6 +543,7 @@
       </div>
     </section>
 
+    <!-- ============ PROGRAMAS ============ -->
     <section class="section" id="programas">
       <div class="container">
         <header class="section-head">
@@ -393,62 +552,125 @@
           <p class="section-intro">El éxito del tratamiento requiere el apoyo de toda una comunidad. Entendemos el sufrimiento y el dolor que causa la adicción, así como la fortaleza que puede brindar el tratamiento correcto.</p>
         </header>
 
-        <div class="grid grid-2">
-          <article class="card card-accent">
-            <img class="card-photo" src="assets/photos/yoga-parque-600.jpg" alt="Grupo practicando yoga y meditación sobre colchonetas en un parque" width="600" height="400" loading="lazy" decoding="async">
-            <h3>Programa de internamiento</h3>
-            <p class="tag">Confidencial e integral</p>
-            <p>Tu caso es único por tus antecedentes y circunstancias particulares. Este programa se ajusta a cada persona y se enfoca en reeducar y fortalecer física y mentalmente para su bienestar. Acompañamos cada etapa del proceso, motivando y recordando que nadie está solo.</p>
-            <a class="link-arrow" href="#contacto">Solicitar información</a>
-          </article>
+        <div class="programs" data-tabs>
+          <div class="seg" role="tablist" aria-label="Programas">
+            <button class="seg-btn is-active" type="button" role="tab" id="tab-internamiento" aria-controls="panel-internamiento" aria-selected="true" tabindex="0">Internamiento</button>
+            <button class="seg-btn" type="button" role="tab" id="tab-ambulatorio" aria-controls="panel-ambulatorio" aria-selected="false" tabindex="-1">Ambulatorio</button>
+          </div>
 
-          <article class="card card-accent">
-            <img class="card-photo" src="assets/photos/circulo-aereo-rojo-600.jpg" alt="Vista aérea de un círculo de personas con camisetas rojas sentadas en sillas alrededor de una banca" width="600" height="400" loading="lazy" decoding="async">
-            <h3>Programa ambulatorio</h3>
-            <p class="tag">Acompañamiento sin internamiento</p>
-            <p>Una alternativa para quienes requieren apoyo profesional manteniendo su vida cotidiana. Contáctanos para conocer las modalidades y la forma de vincularte al programa.</p>
-            <a class="link-arrow" href="#contacto">Solicitar información</a>
-          </article>
+          <div class="program-panels">
+            <article class="program is-active" role="tabpanel" id="panel-internamiento" aria-labelledby="tab-internamiento">
+              <figure class="program-media"><img src="assets/img/yoga-parque-1200.webp" srcset="assets/img/yoga-parque-640.webp 640w, assets/img/yoga-parque-1200.webp 1200w" sizes="(min-width: 960px) 45vw, 92vw" alt="Grupo practicando yoga y meditación sobre colchonetas en un parque" width="1200" height="800" loading="lazy" decoding="async"></figure>
+              <div class="program-body">
+                <p class="tag">Confidencial e integral</p>
+                <h3>Programa de internamiento</h3>
+                <p>Tu caso es único por tus antecedentes y circunstancias particulares. Este programa se ajusta a cada persona y se enfoca en reeducar y fortalecer física y mentalmente para su bienestar. Acompañamos cada etapa del proceso, motivando y recordando que nadie está solo.</p>
+                <a class="btn btn-wa" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20programa%20de%20internamiento%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Solicitar información</span></a>
+              </div>
+            </article>
+            <article class="program" role="tabpanel" id="panel-ambulatorio" aria-labelledby="tab-ambulatorio" inert>
+              <figure class="program-media"><img src="assets/img/circulo-rojo-1200.webp" srcset="assets/img/circulo-rojo-640.webp 640w, assets/img/circulo-rojo-1200.webp 1200w" sizes="(min-width: 960px) 45vw, 92vw" alt="Vista aérea de un círculo de personas con camisetas rojas sentadas alrededor de una banca" width="1200" height="800" loading="lazy" decoding="async"></figure>
+              <div class="program-body">
+                <p class="tag">Acompañamiento sin internamiento</p>
+                <h3>Programa ambulatorio</h3>
+                <p>Una alternativa para quienes requieren apoyo profesional manteniendo su vida cotidiana. Contáctanos para conocer las modalidades y la forma de vincularte al programa.</p>
+                <a class="btn btn-wa" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20programa%20ambulatorio%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Solicitar información</span></a>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-fire" id="apoyo">
+    <!-- ============ EMPEZAR (WhatsApp) ============ -->
+    <section class="section section-fire start" id="empezar">
+      <span class="blob b1" aria-hidden="true"></span>
+      <span class="blob b2" aria-hidden="true"></span>
+      <div class="container start-inner">
+        <div class="start-copy">
+          <p class="eyebrow eyebrow-light">Da el primer paso</p>
+          <h2>Empieza hoy tu proceso de recuperación</h2>
+          <p class="section-intro">Cuéntanos quién necesita ayuda y qué te interesa. Prepararemos el mensaje por ti y lo enviarás desde tu propio WhatsApp.</p>
+          <ol class="start-steps">
+            <li><span>1</span><div><strong>Escríbenos</strong><p>Un mensaje confidencial, sin compromiso.</p></div></li>
+            <li><span>2</span><div><strong>Te escuchamos</strong><p>Conversamos sobre tu situación o la de tu familiar.</p></div></li>
+            <li><span>3</span><div><strong>Iniciamos el acompañamiento</strong><p>Te orientamos hacia el programa y las terapias adecuadas.</p></div></li>
+          </ol>
+        </div>
+
+        <form class="composer" id="composer" onsubmit="return false">
+          <fieldset>
+            <legend>¿Quién necesita ayuda?</legend>
+            <div class="opts">
+              <label><input type="radio" name="who" value="yo" checked><span>Yo</span></label>
+              <label><input type="radio" name="who" value="familiar"><span>Un familiar</span></label>
+              <label><input type="radio" name="who" value="amigo"><span>Un amigo o conocido</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>¿Qué te interesa?</legend>
+            <div class="opts">
+              <label><input type="radio" name="what" value="orientacion" checked><span>Quiero orientación</span></label>
+              <label><input type="radio" name="what" value="internamiento"><span>Internamiento</span></label>
+              <label><input type="radio" name="what" value="ambulatorio"><span>Ambulatorio</span></label>
+              <label><input type="radio" name="what" value="modelo"><span>Conocer el modelo</span></label>
+            </div>
+          </fieldset>
+          <label class="note">
+            <span>Algo más que quieras contarnos <em>(opcional)</em></span>
+            <textarea name="note" rows="3" maxlength="400" placeholder="Escribe aquí si quieres agregar algo…"></textarea>
+          </label>
+
+          <div class="bubble" aria-live="polite">
+            <span class="bubble-from">Tu mensaje</span>
+            <p id="bubble-text"></p>
+          </div>
+
+          <a class="btn btn-wa btn-lg btn-block" id="wa-send" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Enviar por WhatsApp</span></a>
+          <p class="privacy">No guardamos lo que escribes aquí: el mensaje se abre directamente en tu WhatsApp.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ APOYO ============ -->
+    <section class="section section-tint" id="apoyo">
       <div class="container narrow center">
         <p class="eyebrow">Plan Padrino</p>
         <h2>Ayúdanos a ayudar a otros</h2>
         <p class="section-intro">Dependemos de tu apoyo para atender a las personas que acompañamos. La mayor parte de los recursos de la Fundación proviene de donaciones y contribuciones personales de gente como tú. Tu ayuda marca una gran diferencia en la vida de nuestros residentes.</p>
-        <a class="btn btn-light" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20Plan%20Padrino%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">Quiero apoyar el Plan Padrino</a>
+        <a class="btn btn-wa btn-lg" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20Plan%20Padrino%20de%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>Quiero apoyar el Plan Padrino</span></a>
       </div>
     </section>
 
+    <!-- ============ CONTACTO ============ -->
     <section class="section" id="contacto">
       <div class="container">
-        <header class="section-head">
+        <header class="section-head center">
           <p class="eyebrow">Contáctanos</p>
           <h2>¿Tienes un familiar o amigo que necesita ayuda?</h2>
           <p class="section-intro">Estamos para ayudar. Escríbenos o llámanos: tu consulta es confidencial.</p>
         </header>
 
-        <div class="grid grid-3 contact">
-          <a class="card contact-card" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">
+        <div class="contact">
+          <a class="contact-card contact-main" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener">
+            <span class="contact-ico"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
             <span class="contact-label">WhatsApp</span>
             <span class="contact-value">+57 320 721 2004</span>
-            <span class="contact-hint">Escríbenos ahora</span>
+            <span class="contact-hint">Escríbenos ahora <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></span>
           </a>
-          <a class="card contact-card" href="tel:+573207212004">
+          <a class="contact-card" href="tel:+573207212004">
             <span class="contact-label">Teléfono</span>
             <span class="contact-value">+57 320 721 2004</span>
-            <span class="contact-hint">Llámanos</span>
+            <span class="contact-hint">Llámanos <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></span>
           </a>
-          <a class="card contact-card" href="mailto:fundacionfenix-fenix@hotmail.com">
+          <a class="contact-card" href="mailto:fundacionfenix-fenix@hotmail.com">
             <span class="contact-label">Correo</span>
             <span class="contact-value contact-email">fundacionfenix-fenix@hotmail.com</span>
-            <span class="contact-hint">Envíanos un mensaje</span>
+            <span class="contact-hint">Envíanos un mensaje <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></span>
           </a>
         </div>
 
-        <p class="location">Copacabana, Antioquia · Colombia, Sur América</p>
+        <p class="location"><span class="pin" aria-hidden="true"></span>Copacabana, Antioquia · Colombia, Sur América</p>
       </div>
     </section>
   </main>
@@ -458,17 +680,31 @@
       <img src="assets/logo-mark-160.jpeg" alt="" width="56" height="54">
       <p class="footer-name">Fundación Fénix Fénix</p>
       <p class="footer-quote">&ldquo;Salvando Vidas&rdquo;</p>
+      <ul class="footer-nav" aria-label="Secciones">
+        <li><a href="#modelo">Modelo</a></li>
+        <li><a href="#terapias">Terapias</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#valores">Valores</a></li>
+        <li><a href="#programas">Programas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
     </div>
     <div class="container footer-bottom">
-      <p>&copy; 2026 Fundación Fénix Fénix. Todos los derechos reservados.</p>
+      <p>&copy; 2026 Fundación Fénix Fénix. Todos los derechos reservados. Imágenes ilustrativas.</p>
       <a href="#top">Volver arriba</a>
     </div>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener" aria-label="Escríbenos por WhatsApp">
-    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-    <span class="whatsapp-label">Escríbenos</span>
-  </a>
+  <div class="wa-float">
+    <p class="wa-tip" id="wa-tip" role="status" hidden>
+      <span>¿Necesitas orientación? Escríbenos, es confidencial.</span>
+      <button type="button" class="wa-tip-close" aria-label="Cerrar aviso">&times;</button>
+    </p>
+    <a class="whatsapp-float" href="https://wa.me/573207212004?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20F%C3%A9nix%20F%C3%A9nix." rel="noopener" aria-label="Escríbenos por WhatsApp">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span class="whatsapp-label">Escríbenos</span>
+    </a>
+  </div>
 
   <script src="script.js" defer></script>
 </body>

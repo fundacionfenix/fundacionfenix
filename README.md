@@ -12,6 +12,8 @@ Sitio estático (HTML, CSS y un poco de JavaScript), sin dependencias de compila
 | `styles.css` | Estilos y paleta de marca (rojo, naranja y amarillo del logo) |
 | `script.js` | Menú móvil y animaciones de entrada |
 | `assets/` | Logo, favicons e imagen para redes sociales |
+| `assets/img/` | Fotografías optimizadas (WebP, versiones de 640 y 1200 px) que usa la página |
+| `assets/source/` | Fotografías originales, de respaldo |
 | `robots.txt`, `sitemap.xml` | SEO básico |
 | `CNAME` | Dominio personalizado |
 
@@ -25,4 +27,4 @@ Luego abrir http://localhost:8000.
 
 ## Agregar imágenes
 
-Colocar los archivos en `assets/` con nombres sin espacios (por ejemplo `taller-arte.jpg`) y optimizarlos antes de subirlos.
+Guardar el original en `assets/source/` (nombre sin espacios ni tildes, por ejemplo `taller-arte.jpg`) y generar las versiones WebP de 640 y 1200 px en `assets/img/` (`taller-arte-640.webp`, `taller-arte-1200.webp`).
