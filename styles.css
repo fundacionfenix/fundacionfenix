@@ -423,6 +423,7 @@ h2 { font: 800 clamp(2rem, 4.8vw, 3.5rem)/1.06 var(--font-head); letter-spacing:
 .journey-line { display: none; }
 .j-card { position: relative; overflow: hidden; padding: clamp(24px, 3vw, 34px); border-radius: var(--radius); }
 .j-tag { display: block; margin-bottom: 14px; font: 900 clamp(2.2rem, 4vw, 3.2rem)/1 var(--font-head); letter-spacing: -0.03em; }
+.j-card p + p { margin-top: 0.9em; }
 .j-ayer { background: #241b18; color: #e9dfd9; }
 .j-ayer .j-tag { color: #a39690; }
 .j-hoy { background: linear-gradient(160deg, #b30b0b, #e0480c); color: #fff; }
