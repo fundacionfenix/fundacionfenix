@@ -225,7 +225,7 @@
 
   /* ---------- Revelado al entrar en pantalla ---------- */
   var revealSel = ".section-head, .t-card, .flip, .j-card, .glass, .composer, .start-copy, .contact-card, " +
-    ".model, .about, .programs, .cta-inner, .model-cta, .closing, .phil-closing, .chips, .location";
+    ".model, .about, .programs, .cta-inner, .model-cta, .closing, .phil-closing, .chips, .location, .spec-card, .spec-cta";
   var items = $$(revealSel);
   items.forEach(function (el) { el.classList.add("reveal"); });
 
@@ -302,6 +302,7 @@
     };
     var WHAT = {
       orientacion: "Me gustaría recibir orientación sobre cuál es el mejor camino.",
+      involuntario: "Mi familiar aún no quiere recibir ayuda y quisiera orientación sobre el manejo de pacientes involuntarios.",
       internamiento: "Me interesa conocer el programa de internamiento.",
       ambulatorio: "Me interesa conocer el programa ambulatorio.",
       modelo: "Quisiera conocer el Modelo Holístico Clínico y sus terapias."
